@@ -1,0 +1,142 @@
+
+.mainheader{
+    width: 100%;
+    height: 80px;
+    background:linear-gradient(rgb(17, 184, 206),rgb(17, 206, 190));
+    position:absolute;
+    padding-top: 0px;
+}
+.mainheader h1{
+    color: white;
+    text-shadow: #fff;
+    font-weight: bolder;
+    margin-left: 30px;
+    width: 500px;
+    overflow: hidden;
+    float: left;
+}
+.rightcont{
+    float: right;
+  }
+
+.enve{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+
+   
+}
+
+.username {
+   margin-right:80px;
+   color: white;
+   position: relative;
+   padding-top: 30px;
+   float: right;
+   padding-left: 20px;
+
+
+}
+.rightcontainer{
+    width: 100vw;
+    background: white;
+    float: left;
+    padding-right: 30px;
+    padding-top: 40px;
+    min-height: 100vh;
+}
+.logoicon{
+    font-size: 40px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    animation: anim 0.9s linear forwards;
+}
+.btn-danger{
+    background: rgba(146, 0, 0, 0.829);
+    color:white;
+
+}
+.btn {
+  padding: 0px 20px;
+  font-size: 35px;
+  text-align: center;
+  color: #F7CAC9;
+
+}
+
+.btn:hover {background-color: red}
+
+.btn:active {
+  background-color: #3e8e41;
+  
+  transform: translateY(4px);
+}
+
+.table-responsive{
+margin-top: 1px;
+    width: 100%;
+    border: 5px solid;
+    
+
+}
+.table-responsive th{
+  
+}
+.table-responsive tr{
+    font-size: 32px;
+    padding-left: 20px;
+}
+table, td {
+    border: 1px solid black;
+}
+th {
+    background-color: #55B4B0;
+    color: white;
+    border: 1px solid black;
+
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+tr:hover {
+    background-color: gray}
+.front{
+    float: left;
+    width: 10%;
+}
+.middle{
+    float: left;
+    width: 80%;
+}
+.left{
+    float: left;
+    width: 10%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.search{
+    margin-top: 50px;
+    padding-left: 30%;
+   width: 70%;
+}
+.input-field {
+  align-self: center;
+  width: 60%;
+  background-color: #fff;
+  margin: 10px 0;
+  height: 35px;
+  border-radius: 55px;
+ 
+}
+.searchbtn {
+  
+  font-size: 25px;
+  width: 15%;
+  text-align: center;
+  color: #55B4B0;
+}

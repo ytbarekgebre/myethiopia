@@ -1,0 +1,572 @@
+
+body{
+	background-color: white;
+
+}
+.box{
+	border-style: solid 1px;
+	margin: 10px 0;
+	text-align: center;
+	color: white;
+}
+.text-center{
+	text-align: center;
+	
+		    }
+.black-text{
+	color: black;
+		    }
+ .white-text{
+	color: white;
+		    }
+
+.column-front {
+  float: left;
+  width: 33%;
+   padding: 5px,5px,5px,5px;
+}
+.column-middle {
+  float: left;
+  width: 33%;
+   padding: 5px,5px,5px,5px;
+}
+
+.column-side{
+  float: left;
+  width: 33%;
+  padding: 5px,5px,5px,5px;
+}
+
+.column-front-pop {
+  float: left;
+  width:24%;
+  padding-left: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column-popular {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after the columns */
+.row-popular:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+/* Clear floats after the columns */
+.row-foot:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pop-title{
+	text-align: center;
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+.pop-para{
+	text-decoration: none;
+}
+.color-bg{
+	 background-color:	#e8e3e3;
+}
+  img.scaleUp {
+	transition: ease-in-out all .3s;
+}
+img.scaleUp:hover{
+	cursor: pointer;
+	transform: scale(1.04);
+	transition: ease-in-out all .3s;
+	opacity: .9
+}
+ 
+  img.feat_img{
+ width:300px; 
+ height:150px; 
+ border-radius:10px;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+  }
+   img.pop_img{
+ width:330px; 
+ height:200px; 
+ border-radius:2px;
+ display: block;
+ 
+  }
+h1,h2, h3,h4,h5,h6, p.center_text{
+  	text-align: center;
+  	color: black;
+  }
+h1,h2, h3,h4,h5,h6, p.white-text{
+	color: white;
+}
+h1.features{
+	color: black;
+text-align: center;
+}
+h3.title{
+	color: black;
+	text-align: center;
+}
+.top_background{
+	width: 100%;
+	height: 440px;
+	padding: 5rem 0 3rem 0;
+	background-image: url('../img/imgheader5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.aboutUs_background{
+ width: 100%;
+	height: 520px;
+	padding: 5rem 0 3rem 0;
+	background-image: url('../img/imgheader5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.topnav {
+  	width: 100%;
+  	height: 30px;
+	background-color: rgba(255, 255, 255, 0);
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+ 
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+ background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+.cool-title{
+	text-align: center;
+color: black;
+}
+
+.copyright{
+	background-color:black;
+	color: white;
+	text-align: center;
+	padding: 5px 0 5px 0;}
+}
+.footnav {
+  	width: 100%;
+	background-color: black;
+	border-radius: 15px;
+}
+/* Style the links inside the navigation bar */
+.footnav a {
+
+  color: #fff;
+  text-align: center;
+  padding: 8px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 15px;
+}
+/* Change the color of links on hover */
+.footnav a:hover {
+ background-color:white;
+  color: black;
+}
+/* Add a color to the active/current link */
+.footnav a.active {
+  background-color:white;
+  color: black;
+  border-radius: 15px;
+}
+
+footer{
+	background-color: black;
+}
+
+
+nav {
+	width: 100%;
+	text-decoration: none;
+	z-index: 99;
+	font-size: 1.1rem;
+	min-height: 60px;
+
+}
+nav .active{
+	background-color: rgba(0, 0, 0, 0.2);
+	border-radius: 15px;
+	
+}
+/*navigation Backgound*/
+.navbar{
+ 	position: absolute; 
+	background-color:rgba(255, 255, 255, 0);
+	border-radius: 15px;
+
+	
+}
+.nav-active{
+	position: fixed; 
+	border-bottom: 1px solid rgba(0, 0, 0, 0.200);
+	background-color: #fff;
+	border-radius: 15px;
+	/*transition: ease-in-out all 0.3s;*/
+
+}
+.navbar a{
+	color: #fff;
+	text-decoration: none;
+	border-radius: 15px;
+
+
+}
+.nav-active a{
+	color: #000;
+	
+}
+
+
+}
+.navmenu{
+	display: block;
+	margin: 0;
+	padding: 0;	
+	
+}
+
+ul.navmenu li{
+	list-style: none;
+	display: inline-block;
+	padding:  10px 20px;
+	cursor: pointer;
+}
+
+
+ul.navmenu li:hover a{
+	transition: 0.7s;
+	color: black;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 15px;
+	
+}
+
+
+.navcontainer {
+text-align: center;
+justify-content: center;
+}
+
+
+/* About-eth css*/
+
+
+* {
+  box-sizing: border-box;
+}
+p .double{
+  margin-left: 100px;
+}
+
+/* Style the header */
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create three equal columns that floats next to each other */
+.column60 {
+  float: left;
+  width: 75%;
+  padding-left: 100px ;
+padding-right:50px;
+  background-color: #d6e0f5;
+  border-radius: 15px;
+}
+.column10 {
+  float: left;
+  width: 7%;
+  padding: 15px;
+}
+.column30 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 80%;
+  }
+}
+
+/* Destinations*/
+* {
+  box-sizing: border-box;
+}
+
+.clearfix {
+  overflow: auto;
+   padding: 2px;
+  
+}
+
+.img2 {
+  float: left;
+  padding:1px;
+   width:450px;
+   height:250px;
+   border-radius: 15px
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.textdecor{
+	text-decoration: none; 
+	font-weight:bold; 
+	color: white; 
+}
+
+
+/* Diffrent destinations */
+.column80 {
+  float: left;
+  width: 80%;
+  padding: 15px;
+  border-radius: 15px;
+  background-color: #ccffcc
+;
+}
+.column20 {
+  float: left;
+  width: 20%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.columnpackage {
+  float: left;
+  width: 75%;
+  padding: 15px,15px,15px,15px;
+  
+}
+.columnpop {
+  float: left;
+  width: 25%;
+    padding: 5px,5px,5px,5px;
+}
+.columnfluka {
+  float: left;
+  width: 7%;
+  padding: 15px ;
+  border-radius: 15px;
+}
+.columnpack {
+  float: left;
+  width: 68%;
+  padding: 15px ;
+  border-radius: 15px;
+}
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.cardcontainer {
+  padding: 2px 16px;
+}
+.column19 {
+  float: left;
+  width: 25%;
+  padding: 15px ;
+  border-radius: 15px;
+}
+
+.column-left {
+  float: left;
+  width: 60%;
+}
+.column-right {
+  float: left;
+  width: 40%;
+}
+
+footer{
+	padding: 24px 0 0  0;
+
+
+}
+footer a{
+	color: #c7c7c7;
+
+}
+
+footer .connect{
+	display: block;
+	width: 100%;
+}
+
+footer .connect .social{
+	padding-left: 0;
+}
+
+footer .connect .social li:first-child{
+	padding-left: 0;
+}
+
+footer .connect .social li{
+	padding: 0 10px;
+	display: inline-block;
+	list-style: none;
+}
+
+footer .connect .social li a{
+	color: white;
+}
+
+footer .connect .social .fb:hover{
+	transition: ease-in-out all .3s;
+	color: #4b78cd;
+}
+
+footer .connect .social .tw:hover{
+	transition: ease-in-out all .3s;
+	color: #57d2ff;
+}
+
+footer .connect .social .tg:hover{
+	transition: ease-in-out all .3s;
+	color: #6ac0ff;
+}
+
+footer .connect .social .yt:hover{
+	transition: ease-in-out all .3s;
+	color: #ff0000;
+
+}
+
+footer .connect .social .p:hover{
+	transition: ease-in-out all .3s;
+	color: #ff0000;
+
+}
+footer .copy{
+	background-color: rgba(0,0,0,0.3);
+	padding: 10px 0 10px 0;
+}
+
+.footer-links{
+	padding-left: 0;
+	display: block;
+	list-style: none;
+}
+
+.footer-links li{
+	padding: 2px 0;
+
+
+}
+
+.footer-links li a:hover{
+	color: #fafafa;
+}
+
+.footer-logo{
+	margin: 8px 0 10px 0;
+}
+
+.coupon {
+ 
+  width: 80%;
+  border-radius: 15px;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.container {
+  padding: 2px 16px;
+  border-radius: 15px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.readmore {
+  background: #0080ff;
+  padding: 3px;
+  border-radius: 15px;
+box-shadow: 0 4px 8px 0 #001a33;
+
+
+}
+
+.column4 {
+  float: left;
+  width: 25%;
+  padding: 15px;
+}
